@@ -1,0 +1,138 @@
+# [Full Integrated] Android, C++, OpenCV, Gradle, VS, VS Code, OS
+
+### 1. Mobile & Android (Android Studio, Gradle) ###
+.gradle/
+build/
+**/build/
+!src/**/build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+output.json
+gen-external-apklibs
+.navigation/
+proguard/
+bin/
+gen/
+out/
+obj/
+*.hprof
+.gradletasknamecache
+
+# Keystore & Google Services
+*.jks
+*.keystore
+.signing/
+# google-services.json  # 프로젝트에 따라 필요시 주석 해제
+
+# Gradle Wrapper
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+!/gradle/wrapper/gradle-wrapper.jar
+
+### 2. Desktop & C++ (Visual Studio, OpenCV, CMake) ###
+# Visual Studio 빌드 및 캐시
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+.vs/
+ipch/
+*.sdf
+*.opensdf
+*.VC.db
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
+
+# C++ 컴파일 결과물
+*.obj
+*.o
+*.lib
+*.a
+*.dll
+*.so
+*.dylib
+*.exe
+*.out
+*.app
+*.pch
+*.gch
+
+# OpenCV & CMake
+*/CMakeFiles
+*/CMakeCache.txt
+*/Makefile
+*/cmake_install.cmake
+
+### 3. Editor & IDE (VS Code, IntelliJ) ###
+# VS Code (공통 설정 유지 규칙 포함)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+*.vsix
+.ionide/
+
+# IntelliJ / Android Studio 내부 설정
+.idea/
+*.iml
+*.iws
+*.ipr
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+### 4. OS 전용 파일 (Windows, macOS, Linux) ###
+# Windows
+Thumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.stackdump
+*.cab
+*.msi
+*.msix
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.Trashes
+*.icloud
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+### 5. 기타 플러그인 및 로그 ###
+*.log
+hs_err_pid*
+atlassian-ide-plugin.xml
+com_crashlytics_export_strings.xml
+crashlytics.properties
+fabric.properties
+
+# OpenCV 전체 소스 및 바이너리 제외
+opencv/
+eyedid/
